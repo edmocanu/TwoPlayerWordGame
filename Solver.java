@@ -78,7 +78,7 @@ public class Solver implements Serializable {
             letterScores.put(this.letters[i],points[i]);
         }
     
-        Scanner input = new Scanner(new File("Files/fourLetterWords.txt"));
+        Scanner input = new Scanner(new File("fourLetterWords.txt"));
         while (input.hasNext()) {
             String currentWord = input.nextLine().substring(0,4);
             Integer wordScore = 0;
